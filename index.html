@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trocar a cor de fundo do site</title>
+</head>
+<body>
+	<h1>Escolha uma cor para o fundo do site:</h1>
+	<input type="color" id="corDeFundo" name="corDeFundo">
+	<button onclick="trocarCorDeFundo()">Mudar cor</button>
+
+	<script>
+		function trocarCorDeFundo() {
+			var cor = document.getElementById("corDeFundo").value;
+			document.body.style.backgroundColor = cor;
+		}
+	</script>
+</body>
+</html>
+
+
+
+
+
+
